@@ -1,0 +1,39 @@
+/* Common styling */
+
+.header h1, .header, .menu-section a {
+    background-color: #F8F0FB;
+    text-transform: uppercase;
+}
+
+.header, .menu-section a {
+    border: 1px solid black;
+}
+
+/* Header styling */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+/* Recipe menu styling */
+
+a {
+    /* If I don't do this, elements are not inside div (likely because anchors are inline by default) */
+    display: block;
+}
+
+.menu-section a { 
+    color: black;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 40px auto;
+    text-align: center;
+    text-decoration: none;
+}
