@@ -1,0 +1,55 @@
+/* Heading styling */
+
+h1 {
+    background-color: #F8F0FB;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* Page content styling */
+
+.page-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page-content img {
+    float: left;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.first-section h3, .page-content h3 {
+    margin: 10px;
+}
+
+.page-content ul li, .page-content ol li {
+    margin: 5px 0px;
+}
+
+.page-content ul li {
+    list-style-type: none;
+}
+
+/* Home button styling */
+
+#home-button {
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#home-button a {
+    display: block;
+    clear: both;
+    text-decoration: none;
+}
